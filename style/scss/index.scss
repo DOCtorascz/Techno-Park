@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@500;700&family=Poppins:wght@400;500;600;700&display=swap');
+
+$flex: flex;
+$alItems: center;
+$jsfContent: space-between;
+$lnHight: 24px;
+$mrgb: 16px;
+$fBold: 700;
+$mrb: 20px;
+$fsemi: 600;
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: top;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+button {
+  background: none;
+  cursor: pointer;
+  border: none;
+}
+
+.container {
+  max-width: 610px;
+  margin: 0 auto;
+  padding: 0 5px;
+}
+
+@import 'header';
+@import 'specOffer';
+@import 'shop';
+@import 'footer';
+@import 'burgerMenu';
+@import 'animation';
+@import 'order';
+@import 'media';
+@import 'swaper';

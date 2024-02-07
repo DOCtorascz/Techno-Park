@@ -1,0 +1,130 @@
+.spec-offer__inner {
+  display: $flex;
+  flex-direction: column;
+  align-items: $alItems;
+  color: white;
+
+  .spec-offer__name {
+    background-image: linear-gradient(45deg, rgb(135,135,135), rgb(254,254,254));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: $mrgb;
+    font-weight: $fBold;
+  }
+
+  .spec-offer__sub-name {
+    background-image: linear-gradient(90deg, rgb(135,135,135), rgb(254,254,254));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: $mrgb;
+  }
+
+  .spec-offer__rating-inner {
+    background: white;
+    border-radius: 16px;
+    padding: 4px 10px;
+    color: black;
+    margin-bottom: $mrgb;
+
+    .spec-offer__rating {
+      display: $flex;
+      align-items: $alItems;
+      margin-bottom: 4px;
+    }
+
+    .spec-offer__stars {
+      display: $flex;
+      align-items: $alItems;
+      gap: 4px;
+      margin-right: 9px;
+    }
+
+    .spec-offer__num-info {
+      line-height: $lnHight;
+    }
+
+    .spec-offer__reviews {
+      display: $flex;
+      align-items: $alItems;
+      justify-content: center;
+    }
+
+    .spec-offer__reviews-num {
+      line-height: $lnHight;
+      margin-right: 9px;
+    }
+  }
+
+  .spec-offer__price-inner {
+    display: $flex;
+    align-items: $alItems;
+    margin-bottom: 50px;
+
+    .spec-offer__actual-price {
+      font-size: 43px;
+      line-height: 54px;
+      margin-right: 20px;
+    }
+
+    .spec-offer__past-price {
+      font-size: 27px;
+      line-height: 1px;
+      position: relative;
+    }
+
+    .spec-offer__past-price::before {
+      content: "";
+      width: 80%;
+      height: 10px;
+      position: absolute;
+      left: 10px;
+      top: -4px;
+      background: url(../../images/wrapUp/priceReset.svg) no-repeat;
+    }
+  }
+
+  .spec-offer__preview-images {
+    width: 100%;
+    margin-bottom: 39px;
+  }
+
+  .spec-offer__advertisings-inner {
+    font-family: 'Montserrat', sans-serif;
+    display: $flex;
+    gap: 4px;
+    color: black;
+    margin-bottom: 32px;
+
+    .spec-offer__advertising-section {
+      padding: 4px 8px;
+      border-radius: 4px;
+      background: rgb(213, 213, 213);
+
+      .spec-offer__advertising-images-stars {
+        margin-bottom: 3px;
+      }
+
+      .spec-offer__advertising-reviewson {
+        font-size: 8px;
+        display: flex;
+        align-items: center;
+        gap: 3px;
+      }
+
+      .spec-offer__advertising-reviewson span,
+      .spec-offer__advertising-excellent span {
+        font-weight: $fBold;
+      }
+
+      .spec-offer__advertising-excellent {
+        font-size: 12px;
+        max-width: 80px;
+      }
+
+      .spec-offer__advertising-excellent span:first-child {
+        font-size: 16px;
+      }
+    }
+  }
+
+}

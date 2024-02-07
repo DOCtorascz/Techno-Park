@@ -1,0 +1,29 @@
+.wrapper-up {
+  background: #000;
+
+  .header__promo {
+    background: rgb(236, 101, 102);
+    margin-bottom: 24px;
+
+    .header__promo-info {
+      font-family: 'Inter', sans-serif;
+      color: white;
+      line-height: 18px;
+      font-size: 12px;
+      text-align: center;
+      padding: 3px 10px;
+      font-weight: 400;
+    }
+  }
+
+  .header__menu-content {
+    display: $flex;
+    align-items: $alItems;
+    justify-content: space-between;
+    margin-bottom: 46px;
+
+    .header__menu-burger-btn {
+      margin-left: 5px;
+    }
+  }
+}

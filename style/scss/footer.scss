@@ -1,0 +1,26 @@
+$sizePx: 8px;
+
+.footer {
+  background: rgb(28, 28, 28);
+}
+
+.footer__inner {
+  padding: 16px 24px;
+  text-align: center;
+
+  .footer__info {
+    color: rgba(255, 255, 255, 0.486);
+    margin-bottom: $sizePx;
+    font-size: $sizePx;
+    line-height: 12px;
+  }
+
+  .footer__btn {
+    font-size: $sizePx;
+    line-height: 12px;
+    color: rgb(0, 0, 0);
+    padding: 6px 18px;
+    border-radius: 25px;
+    background: rgba(255, 255, 255, 0.486);
+  }
+}

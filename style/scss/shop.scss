@@ -1,0 +1,201 @@
+.main-shop {
+  margin-bottom: 40px;
+}
+
+.shop__inner {
+  display: $flex;
+  flex-direction: column;
+  align-items: $alItems;
+  padding-top: 24px;
+
+  .shop__slider {
+    margin-bottom: $mrb;
+  }
+
+  .shop__name-product {
+    font-size: 32px;
+    line-height: 36px;
+    margin-bottom: $mrb;
+  }
+
+  .shop__availability {
+    margin-bottom: $mrb;
+  }
+
+  .shop__availability-name {
+    line-height: 24px;
+    color: rgb(255, 64, 83);
+    margin-bottom: 6px;
+  }
+
+  .shop__availability-line {
+    width: 100%;
+    height: 8px;
+    border-radius: 90px;
+    background: rgb(235, 234, 232);
+    position: relative;
+    margin-bottom: $mrb;
+  }
+
+  .shop__availability-line::after {
+    content: "";
+    width: 111px;
+    height: 8px;
+    background: rgb(255, 64, 83);
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 90px;
+  }
+
+  .shop__product-info {
+    margin-bottom: $mrb;
+  }
+
+  .shop__product-info span {
+    display: inline-block;
+    color: #1F1F1F;
+    line-height: 20px;
+    margin-bottom: $mrb;
+  }
+
+  .shop__product-info span:last-child {
+    margin-bottom: 0;
+  }
+
+  .shop__sale {
+    background: rgb(245, 245, 246);
+    border-radius: 25px;
+    padding: 8px 90px;
+    margin-bottom: 11px;
+    text-align: center;
+
+    .shop__sale-info {
+      font-weight: 500;
+    }
+
+    .shop__sale-info span {
+      font-weight: $fsemi;
+      color: rgb(177, 95, 255);
+    }
+  }
+
+  .shop__price-info {
+    color: rgb(31, 31, 31);
+    font-size: 32px;
+    font-weight: $fsemi;
+    line-height: 40px;
+    margin-bottom: 10px;
+  }
+
+  .shop__price-past {
+    font-weight: $fsemi;
+    position: relative;
+    padding: 0 5px;
+  }
+
+  .shop__price-past::before {
+    content: "";
+    width: 39px;
+    height: 11px;
+    position: absolute;
+    left: 1px;
+    top: 8px;
+    background: url(../../images/wrapUp/priceReset.svg) no-repeat;
+  }
+
+  .shop__price-past span {
+    color: rgb(255, 64, 83);
+    font-weight: 400;
+  }
+
+  .shop__buy {
+    margin-bottom: 36px;
+    text-align: center;
+
+    .shop__buy-special {
+      font-size: 14px;
+      line-height: 18px;
+      text-align: center;
+      font-weight: 500;
+      margin-bottom: 12px;
+    }
+
+    .shop__buy-special span {
+      position: relative;
+      display: inline-block;
+    }
+
+    .shop__buy-special span:nth-child(1) {
+      margin-bottom: 12px;
+    }
+
+    .shop__buy-special span:nth-child(2) {
+      margin-right: 19px;
+      font-weight: $fBold;
+    }
+
+    .shop__buy-special span:nth-child(2)::before {
+      content: "";
+      width: 28%;
+      height: 100%;
+      position: absolute;
+      top: 2px;
+      left: 100%;
+      background: url(../../images/shopContent/afterpayLogo.svg) no-repeat;
+    }
+
+    .shop__buy-btn {
+      padding: 14px 105px;
+      background: #B0FDE4;
+      font-weight: $fsemi;
+      border-radius: 8px;
+      margin-bottom: 8px;
+    }
+ 
+    .shop__buy-sub-name {
+      font-size: 14px;
+      color: rgb(113, 114, 113);
+      line-height: 25px;
+      max-width: 180px;
+      text-align: start;
+    }
+  }
+
+  .shop__sponsors {
+    text-align: center;
+
+    .shop__sponsors-name {
+      font-size: 20px;
+      font-weight: $fsemi;
+      line-height: 28px;
+      text-align: center;
+      position: relative;
+      padding: 0 25px;
+      margin-bottom: 12px;
+    }
+
+    .shop__sponsors-name::after {
+      content: "";
+      width: 5%;
+      height: 100%;
+      position: absolute;
+      top: 9px;
+      left: 95%;
+      background: url(../../images/shopContent/arrowTop.svg) no-repeat;
+    }
+
+    .shop__sponsors-list {
+      display: $flex;
+      align-items: $alItems;
+      justify-content: center;
+      gap: 20px;
+      margin-bottom: 12px;
+    }
+
+    .shop__sponsors-info {
+      color: rgb(107, 107, 107);
+      line-height: 22px;
+    }
+  }
+}
