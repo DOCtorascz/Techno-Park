@@ -361,7 +361,7 @@ button {
     margin: 0 auto;
     background: white;
     padding: 20px 16px;
-    transform: translate(0px, 15%);
+    transform: translate(0px, 75%);
     box-shadow: 3px 8px 20px 0px;
     border-radius: 12px;
     font-weight: 700; }
