@@ -49,7 +49,7 @@ button {
   .wrapper-up .header__menu-content {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-bottom: 46px; }
     .wrapper-up .header__menu-content .header__menu-burger-btn {
       margin-left: 5px; }
@@ -436,6 +436,9 @@ button {
 
   .header__logo-item {
     margin: 0 0 10px 0; }
+
+  .spec-offer__inner .spec-offer__name {
+    text-align: center; }
 
   .wrapper-up .header__menu-content {
     flex-direction: column; }
