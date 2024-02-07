@@ -1,6 +1,7 @@
 const bodyContent = document.querySelector('body');
 const popupBurger = document.querySelector('.burger-menu');
 const popupBuy = document.querySelector('.order');
+let popupInit = "";
 
 const popupStatusMenu = (event) => {
   event.preventDefault();
@@ -16,17 +17,18 @@ const popupStatusMenu = (event) => {
   
   if (eventBtnClass === burgerMenu) {
     popupBurger.style.animation = animationParametr;
+    popupInit = popupBurger;
   } else if (eventBtnClass === buyMenu) {
     popupBuy.style.animation = animationParametr;
+    popupInit = popupBuy;
   } else {
-    popupCloseMenu();
+    popupCloseMenu(popupInit);
   }
 }
 
-const popupCloseMenu = () => {
+const popupCloseMenu = (popup) => {
   bodyContent.style.overflow = 'auto';
-  popupBurger.style.animation = 'false';
-  popupBuy.style.animation = 'false';
+  popup.style.animation = 'false';
 }
 
 
