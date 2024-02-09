@@ -320,6 +320,8 @@ button {
   opacity: 0;
   visibility: hidden; }
   .burger-menu .burger-menu__inner {
+    max-width: 393px;
+    margin: 0 auto;
     padding: 18px 23px 0px 12px; }
     .burger-menu .burger-menu__inner .nav-menu {
       width: 100%;

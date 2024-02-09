@@ -10,6 +10,8 @@
   visibility: hidden;
   
   .burger-menu__inner {
+    max-width: 393px;
+    margin: 0 auto;
     padding: 18px 23px 0px 12px;
 
     .nav-menu {
