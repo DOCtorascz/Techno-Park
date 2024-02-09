@@ -10,28 +10,28 @@
   visibility: hidden;
   
   .burger-menu__inner {
-    max-width: 350px;
-    margin: 0 auto;
-    padding: 10px;
-
-    .burger-menu__name {
-      margin-bottom: 42px;
-    }
+    padding: 18px 23px 0px 12px;
 
     .nav-menu {
       width: 100%;
+      margin-bottom: 24px;
+    }
+
+    .nav-menu__inner {
+      max-width: 342px;
+      margin: 0 auto;
     }
 
     .burger-menu__name {
       display: $flex;
       align-items: $alItems;
       justify-content: space-between;
-      width: 100%;
+      margin-bottom: 42px;
     }
 
 
     .nav-menu__list {
-      margin-bottom: 10px;
+      margin-bottom: 23px;
     }
 
     .nav-menu__name-item {
@@ -39,11 +39,17 @@
       align-items: $alItems;
       width: 100%;
       justify-content: space-between;
-      font-weight: 500;
+      font-weight: 600;
     }
 
     .nav-menu__name-item:hover {
-      font-weight: 600;
+      font-weight: 700;
     }
+  }
+
+  .decor-line {
+    width: 100%;
+    height: 1px;
+    background: #C1C1C1;
   }
 }

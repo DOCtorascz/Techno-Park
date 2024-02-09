@@ -1,6 +1,10 @@
 @media (max-width: 480px) {
   .wrapper-up .header__menu-content {
-    justify-content: center;
+    margin-left: 56px;
+  }
+
+  .wrapper-up .header__menu-content .header__menu-burger-btn {
+    margin-right: 17px;
   }
 
   .header__logo-item {
@@ -39,6 +43,15 @@
     margin-bottom: 0;
     display: flex;
     justify-content: center;
+  }
+
+  .shop__inner .shop__sponsors .shop__sponsors-name {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .shop__inner .shop__sponsors .shop__sponsors-name::after {
+    display: none;
   }
 
   .shop__inner .shop__sponsors .shop__sponsors-list {
