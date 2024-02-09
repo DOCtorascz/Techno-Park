@@ -294,6 +294,8 @@ button {
   background: #1c1c1c; }
 
 .footer__inner {
+  max-width: 393px;
+  margin: 0 auto;
   padding: 16px 19px;
   text-align: center; }
   .footer__inner .footer__info {
