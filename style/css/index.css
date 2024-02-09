@@ -445,24 +445,16 @@ button {
     margin-right: 11px; } }
 @media (max-width: 380px) {
   .header__logo-images {
-    max-width: 140px;
-    width: 100%; }
-
-  .header__logo-item {
-    margin: 0 0 10px 0; }
+    width: 80%; }
 
   .spec-offer__inner .spec-offer__name {
     text-align: center; }
 
   .wrapper-up .header__menu-content {
-    flex-direction: column; }
+    margin-left: 14px; }
 
-  .spec-offer__inner .spec-offer__advertisings-inner {
-    display: block; }
-
-  .spec-offer__inner .spec-offer__advertisings-inner .spec-offer__advertising-section {
-    margin-bottom: 10px;
-    text-align: center; }
+  .spec-offer__inner .spec-offer__advertisings-inner .spec-offer__advertising-section .spec-offer__advertising-reviewson {
+    font-size: 6px; }
 
   .spec-offer__inner .spec-offer__advertisings-inner .spec-offer__advertising-section:last-child {
     margin-bottom: 0;
@@ -471,13 +463,10 @@ button {
 
   .shop__inner .shop__sponsors .shop__sponsors-name {
     font-size: 16px;
-    text-align: center; }
+    text-align: left; }
 
   .shop__inner .shop__sponsors .shop__sponsors-name::after {
-    display: none; }
-
-  .shop__inner .shop__sponsors .shop__sponsors-list {
-    flex-direction: column; } }
+    left: 94%; } }
 .swiper {
   max-width: 600px;
   width: 100%;
